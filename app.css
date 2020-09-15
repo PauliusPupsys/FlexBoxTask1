@@ -1,0 +1,90 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.flexbox{
+    background: rgb(238, 238, 238);
+    border: 5px solid gray;
+    height: 750px;
+    width: 77vw;        
+
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;           
+    }
+
+.flexbox-item{
+    margin: 0 0.75vw 1vw;
+    padding: 2vw 0.6vw;
+    }
+
+.flexbox-item1{
+    background-color: rgb(144, 14, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 3.6vw; 
+    flex-grow: 5;
+    width: 75.8vw;
+                    
+    font-size: 2.6vw;
+    font-weight: 600;
+    color: white;
+    }
+
+.flexbox-item2{
+    letter-spacing: -0.8px;
+    height: 490px;
+    width: 170vw;
+    background-color: rgb(56, 242, 233);
+    font-size: 1.15vw;
+    margin-top: auto;
+    }
+
+.flexbox-item3{
+    letter-spacing: -0.8px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
+    width: 350vw;
+    background-color: rgb(255, 170, 0);
+    font-size: 1.15vw;
+    margin-top: auto;  
+    }
+
+.flexbox-item4{
+    letter-spacing: -0.8px;
+    height: 490px; 
+    width: 170vw;  
+    background-color: rgb(56, 242, 233);
+    font-size: 1.15vw;
+    margin-top: auto;     
+    }
+
+.button{
+    border: 3.3px solid rgb(179, 177, 177);
+    font-size: 1.2em;
+    width: 5.8vw;
+    height: 2.5vw;
+    display: inline-flex;
+    margin: 0.75vw 1vw 0 1.5vw;
+    justify-content: center; 
+    align-items: center;
+            
+    }
+    
+    .mybutton{
+    border: 3.3px solid rgb(179, 177, 177);
+    font-size: 1.2em;
+    margin: 2vw auto;
+    height: 2.3vw;
+    width: 34.6vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    }
+    
